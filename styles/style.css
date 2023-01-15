@@ -1,9 +1,10 @@
 * {
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap');
+    
     font-family: 'Work Sans', sans-serif;
 }
 
-/* ......header-title...... */
+/* header-title */
 .header-title {
     background-color: rgba(255, 144, 14, 0.1);
     width: 100%;
