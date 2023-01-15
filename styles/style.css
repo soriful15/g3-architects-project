@@ -1,0 +1,486 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap');
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ......header-title...... */
+.header-title {
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    
+}
+
+.main-title {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.start-architects {
+    color: #131313;
+
+    margin-left: 20%;
+    margin-top: 42px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.short-color {
+    color: #FF900E;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: #424242;
+    margin-left: 50px;
+}
+
+.menu-bar {
+    margin-top: 55px;
+
+    margin-left: 20%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+
+.container-title {
+    color: #131313;
+    font-size: 64px;
+width:30% ;
+
+
+    
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+
+
+
+}
+
+.title-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 30%;
+    
+}
+
+.button {
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    border-color: #FF900E;
+    margin-bottom: 5px;
+}
+
+.title-banner img {
+    width: 1350px;
+    margin-top: 17px;
+
+}
+
+/* team-description */
+.team-title-name {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+    width: 468px;
+}
+
+.feat {
+    color: #FF900E;
+}
+
+.team-title-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 50%;
+}
+
+.team-pic img {
+    width: 342px;
+    height: 342px;
+}
+
+.team-pic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin-top: 50px;
+    margin-left: 270px;
+
+}
+
+.team-title {
+
+    margin-left: 5%;
+    margin-top: 20%;
+    width: 70%;
+
+}
+
+.button-explore {
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    border-color: #FF900E;
+    margin-top: 7px;
+}
+
+.section-title {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* company view */
+
+.company-view {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 130px;
+    position: relative;
+    padding-bottom: 55px;
+
+}
+
+.company-description {
+    margin-left: 200px;
+}
+
+.company-features {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    width: 450px;
+    margin-left: 5px;
+    border: 3px solid #FF900E;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding-left: 15px;
+
+
+}
+
+.summary-menu {
+    margin-left: 25px;
+
+}
+
+.summary-menu-title {
+    margin-top: 50px;
+
+}
+
+.summary-start {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400px;
+    width: 50%;
+
+}
+
+.summary-step {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    width: 50%;
+
+}
+
+.title-summary {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400px;
+    width: 50%;
+}
+
+.architect-pic img {
+    margin-top: 50px;
+    padding-right: 5px;
+    width: 500px;
+}
+
+.experience-button {
+    background: #FF900E;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0px;
+    left: 45%;
+    right: 45%;
+    top: 82%;
+    color: #FFFFFF;
+    border-color: #FF900E;
+    font-weight: 100;
+    font-size: 40px;
+    width: 250px;
+    height: 150px;
+}
+
+/* achievement */
+.some-fact {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 215px;
+    /* margin-left: 20%; */
+    margin-top: 207px;
+    margin-bottom: 0px;
+
+}
+
+.fact-description {
+    color: #727272;
+    font-weight: 400px;
+    font-size: 16px;
+    margin-left: 215px;
+    width: 542px;
+
+
+}
+
+.my-achievement {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 220px;
+    /* justify-items: center; */
+    margin-top: 100px;
+}
+
+.achievement-title {
+    width: 200px;
+    height: 160px;
+    border: 1px solid #FF900E;
+    border-color: #FF900E;
+    border-radius: 8px;
+    transition: width 5s, height 5s, transform 5s, background-color 5s;
+}
+
+.achievement-title:hover {
+    width: 300px;
+    height: 200px;
+    transform: rotate(90deg);
+    background-color: aqua;
+}
+.achievement-title img {
+    margin-left: 76px;
+    margin-top: 15px;
+
+}
+
+.digits {
+    margin-left: 85px;
+    color: #424242;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.awards {
+    margin-left: 70px;
+    color: #727272;
+    font-weight: 600;
+    width: 47.39px;
+    height: 45.22px;
+}
+
+/* sponsor */
+.sponsors-tile {
+    text-align: center;
+    margin-top: 180px;
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 0px;
+    margin-right: 10%;
+
+}
+
+.sponsor-description {
+
+    margin-left: 35%;
+    font-weight: 400;
+    font-size: 16px;
+    width: 22%;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    
+    
+}
+
+.sponser-banner {
+
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sponser-banner img {
+    width: 166.76px;
+    height: 50px
+}
+
+/* copyright */
+.copyright {
+    margin-left: 200px;
+    margin-top: 140px;
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    width: 1440px;
+    height: 100px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+/* media query */
+@media only screen and (max-width:688px) {
+
+    .section-title {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 10%;
+        
+    }
+
+    .team-pic {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0px;
+
+
+    }
+
+    .team-pic img {
+        width: 70%;
+        /* height: 50%; */
+        margin-left: auto;
+
+    }
+
+    .title-banner img {
+        width: 100%;
+    }
+
+    .start-architects {
+        font-size: 20px;
+    }
+
+    .team-title-name {
+        font-size: 35px;
+        width: 70%;
+
+    }
+
+    .team-title {
+        text-align: center;
+    }
+
+    .button-explore {
+        margin-right: 50%;
+    }
+
+    .team-title {
+        margin-top: 8%;
+    }
+
+    .company-description {
+        margin-left: 0%;
+    }
+
+    .company-view {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .experience-button {
+        top: 93%;
+        left: 9%;
+    
+    }
+
+    .some-fact {
+        margin-top: 15%;
+        margin-left: 2%;
+    }
+
+    .fact-description {
+        margin-left: 2%;
+        width: 50%;
+    }
+
+    .my-achievement {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 2%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+
+    }
+
+    .achievement-title {
+        width: 50%;
+        margin-bottom: 2%;
+    }
+
+    .team-title-description{
+        margin-left: 7%;
+    }
+    .architect-pic img{
+          width: 70%;
+    }
+    .sponsors-tile{
+        font-size: 30px;
+        margin-right: 58%;
+    }
+    .sponsor-description{
+        width: 60%;
+        position: relative;
+        right: 30%;
+        
+    }
+    .sponser-banner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 12%;
+        margin-left: 5%;
+    }
+    .copyright {
+        margin-left: 2%;
+        margin-top: 50%;
+    
+        font-weight: 400;
+        font-size: 20px;
+        width: 90%;
+        height: 30%;
+        padding-bottom: 20%;
+    
+    
+    
+    }
+    .container-title{
+        width: 70%;
+    }
+    .title-description{
+        width: 50%;
+        margin-left: 10%;
+    }
+    
+}
